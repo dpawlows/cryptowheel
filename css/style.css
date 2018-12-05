@@ -1,0 +1,45 @@
+body{
+ background-color: #B2B2AA;
+ display: block;
+ margin: 0 auto;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered{
+  text-align: center;
+}
+
+.overlap {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.img1 {
+  /* border: 1px solid #f00; */
+  position: absolute;
+  z-index: 1;
+  left:105px;
+  top:105px;
+}
+
+.img2 {
+  /* border: 1px solid #0f0; */
+  position: absolute;
+  z-index: 2;
+  left:60px;
+  top:60px;
+
+
+}
+.img3 {
+  position: absolute;
+  z-index: 3;
+  left:20px;
+  top:20px;
+
+}
